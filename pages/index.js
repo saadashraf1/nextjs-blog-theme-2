@@ -11,11 +11,11 @@ import SEO from '../components/SEO';
 export default function Index({ posts, globalData }) {
   return (
     <Layout>
-      <SEO title={globalData.name} description={globalData.blogTitle} />
-      <Header name={globalData.name} />
+      <SEO title={'The ML Academy'} description={''} />
+      <Header name={'The ML Academy'} />
       <main className="w-full">
         <h1 className="text-3xl lg:text-5xl text-center mb-12">
-          {globalData.blogTitle}
+          {'The ML Academy'}
         </h1>
       </main>
       <GradientBackground
