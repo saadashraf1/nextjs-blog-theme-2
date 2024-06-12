@@ -12,11 +12,12 @@ export default function Index({ posts, globalData }) {
   return (
     <Layout>
       <SEO title={'The ML Academy'} description={''} />
-      <Header name={'The ML Academy'} />
-      <GradientBackground
-        variant="large"
-        className="fixed top-20 opacity-40 dark:opacity-60"
-      />
+      <main className="w-full">
+        <h1 className="text-3xl lg:text-5xl text-center mb-12">
+          {'The ML Academy'}
+        </h1>
+      </main>
+
       <GradientBackground
         variant="small"
         className="absolute bottom-0 opacity-20 dark:opacity-10"
