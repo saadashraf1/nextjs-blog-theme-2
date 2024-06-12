@@ -12,10 +12,10 @@ export default function Index({ posts, globalData }) {
   return (
     <Layout>
       <SEO title={'The ML Academy'} description={''} />
-      <main className="w-full">
-        <h1 className="text-3xl lg:text-5xl text-center mb-12">
-          {'Comming Soon'}
-        </h1>
+      <main className="w-full h-screen flex items-center justify-center">
+      <h1 className="text-3xl lg:text-5xl text-center mb-12">
+          {'Coming Soon'}
+      </h1>
       </main>
       <GradientBackground
         variant="large"
